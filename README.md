@@ -12,10 +12,15 @@ git clone git@github.com:robertogallea/ArloExample.git
 composer install
 ```
 
-- Set the following variable in .env
+- Set the following variable in .env.example and save it to .env
 ```
 ARLO_USER=<yourusername>
 ARLO_PASSWORD=<yourpassword>
+```
+
+- Generate a key for the application
+```
+php artisan key:generate
 ```
 
 - Run demo
