@@ -17,4 +17,4 @@ composer install
 php artisan serve
 ```
 
-- Navigate to http://localhost
+- Navigate to http://localhost:8080
