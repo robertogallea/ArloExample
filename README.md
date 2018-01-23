@@ -12,6 +12,12 @@ git clone git@github.com:robertogallea/ArloExample.git
 composer install
 ```
 
+- Set the following variable in .env
+```
+ARLO_USER=<yourusername>
+ARLO_PASSWORD=<yourpassword>
+```
+
 - Run demo
 ```
 php artisan serve
